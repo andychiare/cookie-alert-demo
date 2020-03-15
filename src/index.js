@@ -32,7 +32,7 @@ template.innerHTML = `
 </div>
 `;
 
-export class CookieAlert extends HTMLElement {
+export default class CookieAlert extends HTMLElement {
   constructor() {
       super();
 
